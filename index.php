@@ -49,12 +49,12 @@
         <style>
         <?php 
           if (!$_GET["wrlc"] || $_GET["wrlc"] == "up") {
-            echo ".wrlc {display:inline;}";
+            echo ".wrlc {display:block;}";
             echo ".no-wrlc {display:none;}";
           }
           else {
             echo ".wrlc {display:none;}";
-            echo ".no-wrlc {display:inline;}";
+            echo ".no-wrlc {display:block;}";
           }
         ?>
 
