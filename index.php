@@ -47,6 +47,17 @@
         -->
 
         <style>
+        <?php 
+          if (!$_GET["wrlc"] || $_GET["wrlc"] == "up") {
+            echo ".wrlc {display:inline;}";
+            echo ".no-wrlc {display:none;}";
+          }
+          else {
+            echo ".wrlc {display:none;}";
+            echo ".no-wrlc {display:inline;}";
+          }
+        ?>
+
         @media screen and (min-width:992px) {
           .md-show {display:inline;}
           .md-hide {display:none;}
@@ -102,12 +113,12 @@
                 <div class="col-md-4 col-md-offset-1"> <!-- this is a 'sidebar' column that takes up 4 of the 12 columns within this content area -->
                     <h2>Library Resources</h2>
                     
-                    <p><a href="http://findit.library.gwu.edu/search">Catalog</a></p>
-                    <p><a href="http://catalog.wrlc.org">Classic Catalog</a></p>
+                    <p class="wrlc"><a href="http://findit.library.gwu.edu/search">Catalog</a></p>
+                    <p class="no-wrlc"><a href="http://catalog.wrlc.org">Classic Catalog</a></p>
                     <p><a href="http://gw.summon.serialssolutions.com">ArticlesPlus</a></p>
                     <p><a href="http://libguides.gwu.edu">Research Guides</a></p>
                     <p><a href="http://libguides.gwu.edu/databases">Subject Databases</a></p>
-                    <p><a href="https://rooms.library.gwu.edu/">Study Room Reservations<a></p>
+                    <p class="wrlc"><a href="https://rooms.library.gwu.edu/">Study Room Reservations<a></p>
                 </div>
             </div>
             
