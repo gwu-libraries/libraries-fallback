@@ -106,7 +106,7 @@
                 <div class="col-md-7" style="margin-bottom:3em;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
                     <h1>Our site is down!</h1>
                     <p>The GW Libraries website is temporarily unavailable. We are aware of the problem and are working on a solution.</p>
-                    <p>In the meantime, many of our tools and resources can de accessed directly with the links <span class="md-show">to the right</span><span class="md-hide">below</span>.</p>
+                    <p>In the meantime, many of our tools and resources can be accessed directly with the links <span class="md-show">to the right</span><span class="md-hide">below</span>.</p>
                     <p>For 3d printing or equipment reservations, email lithelp@gwu.edu</p>
                     <p>You can reach us directly at 202-994-6558 or gelman@gwu.edu</p>
                     <p>If you need technical assistance, please contact LIT at  lithelp@gwu.edu and 202-994-8278</p>
@@ -120,6 +120,7 @@
                     <p><a href="http://libguides.gwu.edu">Research Guides</a></p>
                     <p><a href="http://libguides.gwu.edu/databases">Subject Databases</a></p>
                     <p class="wrlc"><a href="https://rooms.library.gwu.edu/">Study Room Reservations<a></p>
+                
                 </div>
             </div>
             
