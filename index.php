@@ -57,7 +57,14 @@
             echo ".no-wrlc {display:block;}";
           }
         ?>
-
+        #bullets ul {margin-top: 2em;}
+        #bullets ul li {margin-bottom: 1em;}
+        .sidebar {
+          padding: 0 1em 1em;
+          background: #DDD;
+          border-radius: 10px;
+          margin-top: 3em;
+        }
         @media screen and (min-width:992px) {
           .md-show {display:inline;}
           .md-hide {display:none;}
@@ -65,6 +72,7 @@
         @media screen and (max-width:991px) {
           .md-show {display:none;}
           .md-hide {display:inline;}
+          .sidebar {padding-top:.1em; margin-top:inherit; margin-left:1em; margin-right:1em;}
         }
         </style>
         
@@ -104,15 +112,19 @@
             
             <div class="row">
                 <div class="col-md-7" style="margin-bottom:3em;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
-                    <h1>Our site is down!</h1>
+                    <h1>Our Site is Down!</h1>
                     <p>The GW Libraries website is temporarily unavailable. We are aware of the problem and are working on a solution.</p>
                     <p>In the meantime, many of our tools and resources can be accessed directly with the links <span class="md-show">to the right</span><span class="md-hide">below</span>.</p>
-                    <p class="no-wrlc">With our proxy server down you will need use the GW VPN for remote access to resources: <a href="http://it.gwu.edu/vpn">http://it.gwu.edu/vpn</a></p>
-                    <p>For 3d printing or equipment reservations, email lithelp@gwu.edu</p>
-                    <p>You can reach us directly at 202-994-6558 or gelman@gwu.edu</p>
-                    <p>If you need technical assistance, please contact LIT at  lithelp@gwu.edu and 202-994-8278</p>
+                    <div id="bullets">
+                    <ul>
+                      <span class="no-wrlc"><li>With our proxy server down you will need use the GW VPN for remote access to resources: <a href="http://it.gwu.edu/vpn">http://it.gwu.edu/vpn</a></li></span>
+                      <li>For 3D printing or equipment reservations, email lithelp@gwu.edu</li>
+                      <li>You can reach us directly at 202-994-6558 or gelman@gwu.edu</li>
+                      <li>If you need technical assistance, please contact LIT at  lithelp@gwu.edu and 202-994-8278</li> 
+                    </ul>
+                    </div>
                 </div>
-                <div class="col-md-4 col-md-offset-1"> <!-- this is a 'sidebar' column that takes up 4 of the 12 columns within this content area -->
+                <div class="col-md-4 col-md-offset-1 sidebar"> <!-- this is a 'sidebar' column that takes up 4 of the 12 columns within this content area -->
                     <h2>Library Resources</h2>
                     
                     <p class="wrlc"><a href="http://findit.library.gwu.edu/search">Catalog</a></p>
