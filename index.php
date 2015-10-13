@@ -107,6 +107,7 @@
                     <h1>Our site is down!</h1>
                     <p>The GW Libraries website is temporarily unavailable. We are aware of the problem and are working on a solution.</p>
                     <p>In the meantime, many of our tools and resources can be accessed directly with the links <span class="md-show">to the right</span><span class="md-hide">below</span>.</p>
+                    <p class="no-wrlc">With our proxy server down you will need use the GW VPN for remote access to resources: <a href="http://it.gwu.edu/vpn">http://it.gwu.edu/vpn</a></p>
                     <p>For 3d printing or equipment reservations, email lithelp@gwu.edu</p>
                     <p>You can reach us directly at 202-994-6558 or gelman@gwu.edu</p>
                     <p>If you need technical assistance, please contact LIT at  lithelp@gwu.edu and 202-994-8278</p>
@@ -115,7 +116,8 @@
                     <h2>Library Resources</h2>
                     
                     <p class="wrlc"><a href="http://findit.library.gwu.edu/search">Catalog</a></p>
-                    <p class="no-wrlc"><a href="http://catalog.wrlc.org">Classic Catalog</a></p>
+                    <p class="wrlc"><a href="http://catalog.wrlc.org">Classic Catalog</a></p>
+                    <p class="no-wrlc"><a href="http://www.worldcat.org/">WorldCat Catalog</a></p>
                     <p><a href="http://gw.summon.serialssolutions.com">ArticlesPlus</a></p>
                     <p><a href="http://libguides.gwu.edu">Research Guides</a></p>
                     <p><a href="http://libguides.gwu.edu/databases">Subject Databases</a></p>
